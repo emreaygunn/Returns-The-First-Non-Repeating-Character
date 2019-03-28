@@ -9,7 +9,7 @@ class TheFirstNonRepeatingCharacter
                 count[str[i]]++;
         }
 
-        // Sırayla hangi harfin kaç kere tekrar ettiğine bakıyoruz
+        // Sırayla harflerin kaç kere tekrar ettiğine bakıyoruz
         static int repeatingString(string str)
         {
             int index = -1;
