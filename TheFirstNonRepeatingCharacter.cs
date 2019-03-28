@@ -36,6 +36,6 @@ class TheFirstNonRepeatingCharacter
 
             int index = repeatingString(str);
 
-            Console.WriteLine(index == -1 ? "Harfler birden fazla tekrar içeriyor." : "İlk tekrarsız harf :" + " " + str[index]);
+            Console.WriteLine(index == -1 ? "Harfler birden fazla tekrar içeriyor." : "İlk tekrarsız harf : " + str[index]);
         }
     }
